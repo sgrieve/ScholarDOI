@@ -4,10 +4,12 @@ $( '.gs_ri' ).each(function( index ) {
 
   if (paper.children( '.gs_a' ).text().split('-')[1].includes("arXiv")) {
     // Check if it's a arXiv ID first.
-    var arxivid = paper.children( '.gs_rt' ).children().first().attr("href").split('/')[4];
+    var arxivid = paper.children( '.gs_rt' ).children().first().attr("href").split('abs/')[2];
     var a = $('<a>Bibtex</a>');
     a.attr("title", 'Bibtex');
-    a.attr("href", 'https://doi2bib.org/bib/' + arxivid);
+
+    // We can use arxiv2bibtex to attaempt to resolve arxiv IDs as doi2bib struggles
+    a.attr("href", 'https://arxiv2bibtex.org/?q=' + arxivid + '&outputformat=raw');
     paper.children('.gs_fl').append(a);
 
   } else {
