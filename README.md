@@ -15,7 +15,6 @@ Clone or download this repo and put the folder somewhere you can find it. To ins
 
 > To load your extension in Chrome, open up chrome://extensions/ in your browser and click “Developer mode” in the top right. Now click “Load unpacked extension…” and select the extension’s directory. You should now see your extension in the list.
 
-
 ## Contributing
 
 If you have problems with this extension, open an issue, and I will try and resolve it, or feel free to open a pull request and fix it yourself!

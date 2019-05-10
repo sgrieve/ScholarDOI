@@ -1,6 +1,6 @@
 
 $( '.gs_ri' ).each(function( index ) {
-  
+
   var paper = $(  this );
 
   if (paper.children( '.gs_a' ).text().split('-')[1].includes("arXiv")) {
@@ -38,7 +38,7 @@ $( '.gs_ri' ).each(function( index ) {
       async: true,
       dataType: 'json',
       headers: {
-          "User-Agent": 'ScholarDOI v0.1 (https://github.com/sgrieve/ScholarDOI; mailto:s@swdg.io)'
+          "User-Agent": 'ScholarDOI v0.2 (https://github.com/sgrieve/ScholarDOI; mailto:s@swdg.io)'
       },
       success:function(data){
           var doi = data.message.items[0].DOI;
