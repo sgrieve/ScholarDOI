@@ -1,47 +1,40 @@
 
-var query_array = [];
+$( '.gs_ri' ).each(function( index ) {
+  
+  var paper = $(  this );
 
-var paper = document.getElementsByClassName('gs_ri');
+  if (paper.children( '.gs_a' ).text().split('-')[1].includes("arXiv")) {
+    // Check if it's a arXiv ID first.
+    var arxivid = paper.children( '.gs_rt' ).children().first().attr("href").split('/')[4];
+    var a = $('<a>Bibtex</a>');
+    a.attr("title", 'Bibtex');
+    a.attr("href", 'https://doi2bib.org/bib/' + arxivid);
+    paper.children('.gs_fl').append(a);
 
-for (var i = 0, l = paper.length; i < l; i++) {
-  var cur_paper = paper[i];
-  var query = 'https://api.crossref.org/works?rows=5&query.title='
+  } else {
 
-  var title = cur_paper.getElementsByClassName('gs_rt')[0].getElementsByTagName('a')[0].text;
+    // Parse the DOIs and do a search
+    var query = 'https://api.crossref.org/works?rows=1&sort=relevance&query.title=';
+    var title = paper.children( '.gs_rt' ).children().last().text().trim();
+    var authors = paper.children('.gs_a').text().split('-')[0].split(' ');
 
-  query += title;
-  query += '&query.author=';
-
-  var authors = cur_paper.getElementsByClassName('gs_a')[0].getElementsByTagName('a');
-
-  // Handles case where authors do not have GS pages, and so their names are not
-  // stored in hyperlinks
-  if (authors.length < 1){
-    var tmp_str = cur_paper.getElementsByClassName('gs_a')[0].innerHTML;
-    tmp_str = tmp_str.split('&nbsp;')[0];
-    tmp_str = tmp_str.replace(/,/g, '');
-    query += tmp_str;
-  }
-  else{
-    // Case where authors have GS pages and we need to get their names from the
-    // text of hyperlinks
-    for (var j = 0, l2 = authors.length; j < l2; j++) {
-
-      query += authors[j].text;
-      query = query.replace(/ /g, '+');
+    query += title; // Get Title
+    query += '&query.author=';
+    for (j = 1; j < authors.length; j=j+2) { // Add Authors Last Name
+      query += authors[j].trim().replace(/[,….]/g, '');
+      if (j < authors.length-2) {
+        query += '+'
+        if (j%2 == 1){
+          query += 'and+'
+        }
+      }
     }
-  }
 
-  query_array.push(query);
 
-}
-var counter = 0;
-getData(query_array, counter, paper);
+    query = query.replace(/\s/g, '+'); // Replace Whitespaces by +
 
-function getData(query_array, counter, paper) {
-
-  $.ajax({
-      url:query_array[counter],
+    $.ajax({
+      url:query,
       async: true,
       dataType: 'json',
       headers: {
@@ -49,18 +42,19 @@ function getData(query_array, counter, paper) {
       },
       success:function(data){
           var doi = data.message.items[0].DOI;
+          var rettitle = data.message.items[0].title[0];
 
-          var footer = paper[counter].getElementsByClassName('gs_fl')[0]
+          if (rettitle.toUpperCase() === title.toUpperCase()){ // Check whether the titles match
+            var a = $('<a>Bibtex</a>');
+            a.attr("title", 'Bibtex');
+            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+          } else {
+            var a = $('<a>No DOI Found</a>');
+          }
 
-          var a = document.createElement('a');
-          var linkText = document.createTextNode('Bibtex');
-          a.appendChild(linkText);
-          a.title = 'Bibtex';
-          a.href = 'http://doi2bib.org/bib/' + doi;
-          footer.appendChild(a);
+          paper.children('.gs_fl').append(a);
 
-          counter++;
-          if (counter < query_array.length) getData(query_array, counter, paper);
       }
     });
- }
+  }
+});
