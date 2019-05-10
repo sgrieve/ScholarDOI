@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "ScholarDOI",
   "author": "Stuart W D Grieve",
-  "version": "0.1",
+  "version": "0.2",
 
   "content_scripts": [
     {
