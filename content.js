@@ -1,6 +1,5 @@
-
 $( '.gs_ri' ).each(function( index ) {
-  
+
   var paper = $(  this );
 
   if (paper.children( '.gs_a' ).text().split('-')[1].includes("arXiv")) {
@@ -33,13 +32,15 @@ $( '.gs_ri' ).each(function( index ) {
 
     query = query.replace(/\s/g, '+'); // Replace Whitespaces by +
 
+    // Attaching a User-Agent header throws an unsafe header error on Chrome, so we can
+    // provide contact details as specified in the crossref docs as part of the query
+    // https://github.com/CrossRef/rest-api-doc#good-manners--more-reliable-service
+    query += '&mailto=s@swdg.io';
+
     $.ajax({
       url:query,
       async: true,
       dataType: 'json',
-      headers: {
-          "User-Agent": 'ScholarDOI v0.1 (https://github.com/sgrieve/ScholarDOI; mailto:s@swdg.io)'
-      },
       success:function(data){
           var doi = data.message.items[0].DOI;
           var rettitle = data.message.items[0].title[0];
