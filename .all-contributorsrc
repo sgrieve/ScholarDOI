@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sgrieve",
+      "name": "Stuart Grieve",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10617231?v=4",
+      "profile": "http://swdg.io",
+      "contributions": [
+        "code",
+        "maintenance",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ScholarDOI",
+  "projectOwner": "sgrieve",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
