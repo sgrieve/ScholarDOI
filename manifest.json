@@ -6,9 +6,8 @@
 
   "content_scripts": [
     {
-      "matches": [
-        "https://scholar.google.co.uk/*"
-      ],
+      "matches":        ["https://*/*"],
+      "include_globs":  ["https://scholar.google.*/scholar?*"],
       "js": ["third-party/jquery-3.4.0.min.js", "content.js"]
     }
   ],
