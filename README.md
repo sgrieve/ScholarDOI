@@ -22,7 +22,7 @@ If you have problems with this extension, open an issue, and I will try and reso
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+This extension has been developed by the following people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
