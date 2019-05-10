@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "JesperDramsch",
+      "name": "Jesper Dramsch",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2620316?v=4",
+      "profile": "http://dramsch.net",
+      "contributions": [
+        "code"
+        ]
+        },
+  {
       "login": "sgrieve",
       "name": "Stuart Grieve",
       "avatar_url": "https://avatars1.githubusercontent.com/u/10617231?v=4",
@@ -14,6 +23,7 @@
         "code",
         "maintenance",
         "review"
+
       ]
     }
   ],
