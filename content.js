@@ -45,12 +45,20 @@ $( '.gs_ri' ).each(function( index ) {
       dataType: 'json',
       success:function(data){
           var doi = data.message.items[0].DOI;
-          var rettitle = data.message.items[0].title[0];
+          var rettitle = cleanTitle(data.message.items[0].title[0]);
+          title = cleanTitle(title);
 
-          if (rettitle.toUpperCase() === title.toUpperCase()){ // Check whether the titles match
+          if (rettitle === title){ // Check whether the cleaned titles match
             var a = $('<a>Bibtex</a>');
             a.attr("title", 'Bibtex');
             a.attr("href", 'https://doi2bib.org/bib/' + doi);
+
+          } else if (titleLengthCompare(rettitle, title)) {  //check for match on titles of different lengths
+
+            var a = $('<a>Bibtex</a>');
+            a.attr("title", 'Bibtex');
+            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+
           } else {
             var a = $('<a>No DOI Found</a>');
           }
@@ -61,3 +69,34 @@ $( '.gs_ri' ).each(function( index ) {
     });
   }
 });
+
+function cleanTitle(title) {
+  // Strips everything apart from letters, numbers and spaces from a title
+  return title.toLowerCase().replace(/[^a-z0-9]+/gi, ' ');
+}
+
+function titleLengthCompare(title1, title2){
+  // In cases where we have long titles, google scholar truncates them.
+  // This function compares the truncated title with a similar truncation of
+  // the title from crossref. Returns true for a match and false otherwise.
+  var short = title1;
+  var long = title2
+
+  // We can't know which of the args will be the longest, so sort them here
+  if (title1.length > title2.length){
+    short = title2;
+    long = title1;
+  }
+
+  // Getting rid of trailing empty strings using filter
+  var shortArray = short.split(' ').filter(Boolean);
+  var longArray = long.split(' ').filter(Boolean);
+
+  longArray = longArray.slice(0, shortArray.length)
+
+  if (longArray.join(' ') === shortArray.join(' ')){
+    return true;
+  }
+
+  return false;
+}
