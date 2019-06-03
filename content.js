@@ -8,7 +8,7 @@ $( '.gs_ri' ).each(function( index ) {
     var a = $('<a>Bibtex</a>');
     a.attr("title", 'Bibtex');
 
-    // We can use arxiv2bibtex to attaempt to resolve arxiv IDs as doi2bib struggles
+    // We can use arxiv2bibtex to attempt to resolve arxiv IDs as doi2bib struggles
     a.attr("href", 'https://arxiv2bibtex.org/?q=' + arxivid + '&outputformat=raw');
     paper.children('.gs_fl').append(a);
 
