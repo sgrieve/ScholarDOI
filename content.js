@@ -19,10 +19,10 @@ $( '.gs_ri' ).each(function( index ) {
     var title = paper.children( '.gs_rt' ).children().last().text().trim();
     var authors = paper.children('.gs_a').text().split('-')[0].split(' ');
 
-    query += title; // Get Title
+    query += encodeURIComponent(title); // Get Title
     query += '&query.author=';
     for (j = 1; j < authors.length; j=j+2) { // Add Authors Last Name
-      query += authors[j].trim().replace(/[,….]/g, '');
+      query += encodeURIComponent(authors[j].trim().replace(/[,….]/g, ''));
       if (j < authors.length-2) {
         query += '+'
         if (j%2 == 1){
@@ -31,13 +31,10 @@ $( '.gs_ri' ).each(function( index ) {
       }
     }
 
-
-    query = query.replace(/\s/g, '+'); // Replace Whitespaces by +
-
     // Attaching a User-Agent header throws an unsafe header error on Chrome, so we can
     // provide contact details as specified in the crossref docs as part of the query
     // https://github.com/CrossRef/rest-api-doc#good-manners--more-reliable-service
-    query += '&mailto=s@swdg.io';
+    query += '&mailto=' + encodeURIComponent('s@swdg.io');
 
     $.ajax({
       url:query,
