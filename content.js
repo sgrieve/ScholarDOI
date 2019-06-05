@@ -3,8 +3,8 @@ $( '.gs_ri' ).each(function( index ) {
   var paper = $(  this );
 
   if (paper.children( '.gs_a' ).text().split('-')[1].includes("arXiv")) {
-    // Check if it's a arXiv ID first.
-    var arxivid = paper.children( '.gs_rt' ).children().first().attr("href").split('abs/')[2];
+    // Check if it's an arXiv ID first.
+    var arxivid = paper.children( '.gs_rt' ).children().first().attr("href").split('abs/')[1];
     var a = $('<a>Bibtex</a>');
     a.attr("title", 'Bibtex');
 
