@@ -1,0 +1,23 @@
+{
+  "name": "ScholarDOI",
+  "version": "1.0.0",
+  "description": "[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)",
+  "main": "content.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgrieve/ScholarDOI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgrieve/ScholarDOI/issues"
+  },
+  "homepage": "https://github.com/sgrieve/ScholarDOI#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
