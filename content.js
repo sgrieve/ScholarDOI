@@ -1,73 +1,122 @@
 $( '.gs_ri' ).each(function( index ) {
 
-  var paper = $(  this );
+  var paper = $( this );
 
-  if (paper.children( '.gs_a' ).text().split('-')[1].includes("arXiv")) {
-    // Check if it's an arXiv ID first.
-    var arxivid = paper.children( '.gs_rt' ).children().first().attr("href").split('abs/')[1];
-    var a = $('<a>Bibtex</a>');
-    a.attr("title", 'Bibtex');
+  // First we check for an arxiv id
+  var arxiv = processArXiv(paper);
 
-    // We can use arxiv2bibtex to attempt to resolve arxiv IDs as doi2bib struggles
-    a.attr("href", 'https://arxiv2bibtex.org/?q=' + arxivid + '&outputformat=raw');
-    paper.children('.gs_fl').append(a);
-
-  } else {
-
-    // Parse the DOIs and do a search
-    var query = 'https://api.crossref.org/works?rows=1&sort=relevance&query.title=';
-    var title = paper.children( '.gs_rt' ).children().last().text().trim();
-    var authors = paper.children('.gs_a').text().split('-')[0].split(' ');
-
-    query += encodeURIComponent(title); // Get Title
-    query += '&query.author=';
-    for (j = 1; j < authors.length; j=j+2) { // Add Authors Last Name
-      query += encodeURIComponent(authors[j].trim().replace(/[,….]/g, ''));
-      if (j < authors.length-2) {
-        query += '+'
-        if (j%2 == 1){
-          query += 'and+'
-        }
-      }
-    }
-
-    // Attaching a User-Agent header throws an unsafe header error on Chrome, so we can
-    // provide contact details as specified in the crossref docs as part of the query
-    // https://github.com/CrossRef/rest-api-doc#good-manners--more-reliable-service
-    query += '&mailto=' + encodeURIComponent('s@swdg.io');
+  // If we dont find an arXiv ID, we can query crossef with the title + authors
+  if (arxiv === false){
 
     $.ajax({
-      url:query,
+      url:buildQuery(paper),
       async: true,
       dataType: 'json',
       success:function(data){
-          var doi = data.message.items[0].DOI;
-          var rettitle = cleanTitle(data.message.items[0].title[0]);
-          title = cleanTitle(title);
+          var doi = getDOI(data)
+          var rettitle = getTitleCrossref(data);
+          var title = getTitle(paper);
 
           if (rettitle === title){ // Check whether the cleaned titles match
-            var a = $('<a>Bibtex</a>');
-            a.attr("title", 'Bibtex');
-            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+
+            var a = buildDOILink(a, doi)
 
           } else if (titleLengthCompare(rettitle, title)) {  //check for match on titles of different lengths
 
-            var a = $('<a>Bibtex</a>');
-            a.attr("title", 'Bibtex');
-            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+            var a = buildDOILink(a, doi)
 
           } else {
             var a = $('<a>No DOI Found</a>');
           }
 
-          paper.children('.gs_fl').append(a);
+          insertLink(paper, a);
 
       }
     });
   }
 });
 
-function cleanTitle(title) {
+function insertLink(paper, a){
+  // Inserts a link into the page
+  paper.children('.gs_fl').append(a);
+}
+
+function buildDOILink(a, doi){
+  // Adds the href attribute linking to doi2bib to the hyperlink
+  var a = makeLink();
+  a.attr("href", 'https://doi2bib.org/bib/' + doi);
+  return a;
+}
+
+function getDOI(data){
+  // Gets the DOI from the result of the crossref query
+  return data.message.items[0].DOI;
+}
+
+function getTitleCrossref(data){
+  // Gets and cleans the title from the crossref query
+  return cleanTitle(data.message.items[0].title[0]);
+}
+
+function getTitle(paper){
+  // Gets and cleans the title from google scholar
+  return cleanTitle(paper.children( '.gs_rt' ).children().last().text().trim());
+}
+
+function makeLink(){
+  // This builds the link to bibtex we will insert into each scholar entry
+  var a = $('<a>Bibtex</a>');
+  a.attr("title", 'Bibtex');
+
+  return a;
+}
+
+function buildQuery(paper){
+  // Construct a valid query string for the crossref API
+  var query = 'https://api.crossref.org/works?rows=1&sort=relevance&query.title=';
+  var title = paper.children( '.gs_rt' ).children().last().text().trim();
+  var authors = paper.children('.gs_a').text().split('-')[0].split(' ');
+
+  query += encodeURIComponent(title); // Get Title
+  query += '&query.author=';
+  for (j = 1; j < authors.length; j=j+2) { // Add Authors Last Name
+    query += encodeURIComponent(authors[j].trim().replace(/[,….]/g, ''));
+    if (j < authors.length-2) {
+      query += '+'
+      if (j%2 == 1){
+        query += 'and+'
+      }
+    }
+  }
+
+  // Attaching a User-Agent header throws an unsafe header error on Chrome, so we can
+  // provide contact details as specified in the crossref docs as part of the query
+  // https://github.com/CrossRef/rest-api-doc#good-manners--more-reliable-service
+  query += '&mailto=' + encodeURIComponent('s@swdg.io');
+
+  return query;
+}
+
+function processArXiv(paper){
+  // Check for an arXiv link and grab its id rather than a doi
+  // Returns true if it finds an arXiv link, and false if it doesn't
+  var a = makeLink();
+
+  if (paper.children( '.gs_a' ).text().split('-')[1].includes("arXiv")) {
+
+    var arxivid = paper.children( '.gs_rt' ).children().first().attr("href").split('abs/')[1];
+
+    // We can use arxiv2bibtex to attempt to resolve arxiv IDs as doi2bib struggles
+    a.attr("href", 'https://arxiv2bibtex.org/?q=' + arxivid + '&outputformat=raw');
+    insertLink(paper, a);
+    return true;
+  }
+
+  return false;
+}
+
+
+function cleanTitle(title){
   // Strips everything apart from letters, numbers and spaces from a title
   return title.toLowerCase().replace(/[^a-z0-9]+/gi, ' ');
 }
