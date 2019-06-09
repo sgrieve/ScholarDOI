@@ -1,3 +1,6 @@
+// THIS IS AN AUTOMATICALLY GENERATED FILE. DO NOT EDIT.
+
+
 function insertLink(paper, a){
   // Inserts a link into the page
   paper.children('.gs_fl').append(a);
@@ -108,8 +111,15 @@ function titleLengthCompare(title1, title2){
 
   return false;
 }
-
 module.exports = {
-   cleanTitle,
-   titleLengthCompare
+insertLink,
+buildDOILink,
+getDOI,
+getTitleCrossref,
+getTitle,
+makeLink,
+buildQuery,
+processArXiv,
+cleanTitle,
+titleLengthCompare,
 }
