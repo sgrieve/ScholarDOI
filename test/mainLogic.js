@@ -109,4 +109,7 @@ function titleLengthCompare(title1, title2){
   return false;
 }
 
-module.exports = cleanTitle;
+module.exports = {
+   cleanTitle,
+   titleLengthCompare
+}
