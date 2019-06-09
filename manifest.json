@@ -1,14 +1,14 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "ScholarDOI",
   "author": "Stuart W D Grieve",
-  "version": "0.2",
+  "version": "0.3",
 
   "content_scripts": [
     {
       "matches":        ["https://*/*"],
       "include_globs":  ["https://scholar.google.*/scholar?*"],
-      "js": ["third-party/jquery-3.4.0.min.js", "content.js"]
+      "js": ["src/third-party/jquery-3.4.0.min.js", "src/content.js"]
     }
   ],
   "permissions": [
