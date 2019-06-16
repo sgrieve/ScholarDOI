@@ -86,3 +86,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Auto generated js file for testing
+test/mainLogic.js
