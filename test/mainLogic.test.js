@@ -58,3 +58,10 @@ test('make a hyperlink object', () => {
   var a = ScholarDOI.makeLink();
   expect(a.text()).toBe('Bibtex');
 });
+
+test('add a doi to a hyperlink', () => {
+
+  var a = ScholarDOI.buildDOILink('10.1002/esp.3884');
+
+  expect(a[0].href).toBe('https://doi2bib.org/bib/10.1002/esp.3884');
+});
