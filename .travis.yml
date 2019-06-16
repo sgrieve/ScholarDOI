@@ -12,4 +12,4 @@ install:
 before_script:
   - sh pre-test.sh
 script:
-- npm test
+- npm test -- --coverage --collectCoverageFrom=test/mainLogic.js
