@@ -19,11 +19,11 @@ $( '.gs_ri' ).each(function( index ) {
 
           if (rettitle === title){ // Check whether the cleaned titles match
 
-            var a = buildDOILink(a, doi)
+            var a = buildDOILink(doi)
 
           } else if (titleLengthCompare(rettitle, title)) {  //check for match on titles of different lengths
 
-            var a = buildDOILink(a, doi)
+            var a = buildDOILink(doi)
 
           } else {
             var a = $('<a>No DOI Found</a>');
@@ -41,7 +41,7 @@ function insertLink(paper, a){
   paper.children('.gs_fl').append(a);
 }
 
-function buildDOILink(a, doi){
+function buildDOILink(doi){
   // Adds the href attribute linking to doi2bib to the hyperlink
   var a = makeLink();
   a.attr("href", 'https://doi2bib.org/bib/' + doi);
