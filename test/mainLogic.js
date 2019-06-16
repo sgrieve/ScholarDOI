@@ -1,5 +1,6 @@
 // THIS IS AN AUTOMATICALLY GENERATED FILE. DO NOT EDIT.
 
+const $ = require('../src/third-party/jquery-3.4.0.min.js');
 
 function insertLink(paper, a){
   // Inserts a link into the page
