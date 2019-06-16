@@ -1,0 +1,1782 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4210,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2019-06-13T15:09:06Z",
+          "timestamp": 1560438546319
+        },
+        "reference-count": 152,
+        "publisher": "Wiley",
+        "issue": "8",
+        "license": [
+          {
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2015-09-01T00:00:00Z",
+              "timestamp": 1441065600000
+            },
+            "delay-in-days": 0,
+            "content-version": "tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Earth Surf. Process. Landforms"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              30
+            ]
+          ]
+        },
+        "DOI": "10.1002/esp.3884",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              12,
+              11
+            ]
+          ],
+          "date-time": "2015-12-11T03:54:48Z",
+          "timestamp": 1449806088000
+        },
+        "page": "1039-1054",
+        "source": "Crossref",
+        "is-referenced-by-count": 16,
+        "title": [
+          "How long is a hillslope?"
+        ],
+        "prefix": "10.1002",
+        "volume": "41",
+        "author": [
+          {
+            "given": "Stuart W.D.",
+            "family": "Grieve",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of GeoSciences; University of Edinburgh; Edinburgh UK"
+              }
+            ]
+          },
+          {
+            "given": "Simon M.",
+            "family": "Mudd",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of GeoSciences; University of Edinburgh; Edinburgh UK"
+              }
+            ]
+          },
+          {
+            "given": "Martin D.",
+            "family": "Hurst",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "British Geological Survey; Keyworth Nottingham UK"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              11
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "10.1002/esp.3884-BIB0001|esp3884-cit-0001",
+            "doi-asserted-by": "publisher",
+            "first-page": "383",
+            "DOI": "10.1016/0022-1694(84)90061-1",
+            "article-title": "Drainage density in relation to precipitation intensity in the USA",
+            "volume": "75",
+            "author": "Abrahams",
+            "year": "1984",
+            "journal-title": "Journal of Hydrology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0002|esp3884-cit-0002",
+            "first-page": "88",
+            "article-title": "A comparison of theoretical slope models with slopes in the field",
+            "volume": "9",
+            "author": "Ahnert",
+            "year": "1970",
+            "journal-title": "Zeitschrift für Geomorphologie"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0003|esp3884-cit-0003",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1002/esp.3290120103",
+            "article-title": "Approaches to dynamic equilibrium in theoretical simulations of slope development",
+            "volume": "12",
+            "author": "Ahnert",
+            "year": "1987",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0004|esp3884-cit-0004",
+            "doi-asserted-by": "publisher",
+            "first-page": "20161",
+            "DOI": "10.1029/94JB00713",
+            "article-title": "Evolution of the Santa Cruz Mountains, California, through tectonic growth and geomorphic decay",
+            "volume": "99",
+            "author": "Anderson",
+            "year": "1994",
+            "journal-title": "Journal of Geophysical Research, Solid Earth"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0005|esp3884-cit-0005",
+            "doi-asserted-by": "publisher",
+            "first-page": "35",
+            "DOI": "10.1016/S0169-555X(02)00053-3",
+            "article-title": "Modeling the tor-dotted crests, bedrock edges, and parabolic profiles of high alpine surfaces of the Wind River Range, Wyoming",
+            "volume": "46",
+            "author": "Anderson",
+            "year": "2002",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0006|esp3884-cit-0006",
+            "doi-asserted-by": "publisher",
+            "first-page": "12857",
+            "DOI": "10.1029/JB092iB12p12857",
+            "article-title": "Fitting degradation of shoreline scarps by a nonlinear diffusion model",
+            "volume": "92",
+            "author": "Andrews",
+            "year": "1987",
+            "journal-title": "Journal of Geophysical Research, Solid Earth"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0007|esp3884-cit-0007",
+            "doi-asserted-by": "publisher",
+            "first-page": "265",
+            "DOI": "10.1002/esp.3760050304",
+            "article-title": "Simulated slope development sequences in a three-dimensional context",
+            "volume": "5",
+            "author": "Armstrong",
+            "year": "1980",
+            "journal-title": "Earth Surface Processes"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0008|esp3884-cit-0008",
+            "doi-asserted-by": "publisher",
+            "first-page": "17",
+            "DOI": "10.1002/esp.3290120104",
+            "article-title": "Slopes, boundary conditions, and the development of convexo-concave forms - some numerical experiments",
+            "volume": "12",
+            "author": "Armstrong",
+            "year": "1987",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0009|esp3884-cit-0009",
+            "doi-asserted-by": "publisher",
+            "first-page": "6255",
+            "DOI": "10.1029/95JB02583",
+            "article-title": "Hillslope development in areas of active tectonics",
+            "volume": "101",
+            "author": "Arrowsmith",
+            "year": "1996",
+            "journal-title": "Journal of Geophysical Research, Solid Earth"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0010|esp3884-cit-0010",
+            "unstructured": "Baldwin EM 1956 Geologic map of the lower Siuslaw River area, Oregon"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0011|esp3884-cit-0011",
+            "doi-asserted-by": "publisher",
+            "first-page": "2158",
+            "DOI": "10.1029/2001JB000550",
+            "article-title": "Implications of the shear stress river incision model for the timescale of postorogenic decay of topography",
+            "volume": "108",
+            "author": "Baldwin",
+            "year": "2003",
+            "journal-title": "Journal of Geophysical Research, Solid Earth"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0012|esp3884-cit-0012",
+            "doi-asserted-by": "publisher",
+            "first-page": "1011",
+            "DOI": "10.1029/WR014i006p01011",
+            "article-title": "Long-term patterns of sediment production following road construction and logging in the Oregon Coast Range",
+            "volume": "14",
+            "author": "Beschta",
+            "year": "1978",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0013|esp3884-cit-0013",
+            "author": "Bierman",
+            "first-page": "89",
+            "year": "2001",
+            "volume-title": "Landscape Erosion and Evolution Modeling",
+            "DOI": "10.1007/978-1-4615-0575-4_5",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0014|esp3884-cit-0014",
+            "doi-asserted-by": "publisher",
+            "first-page": "603",
+            "DOI": "10.1002/jgrf.20051",
+            "article-title": "Topographic signatures and a general transport law for deep-seated landslides in a landscape evolution model",
+            "volume": "118",
+            "author": "Booth",
+            "year": "2013",
+            "journal-title": "Journal of Geophysical Research, Earth Surface"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0015|esp3884-cit-0015",
+            "doi-asserted-by": "publisher",
+            "first-page": "683",
+            "DOI": "10.1130/0091-7613(2001)029<0683:STMOSM>2.0.CO;2",
+            "article-title": "Sediment transport mechanisms on soil-mantled hillslopes",
+            "volume": "29",
+            "author": "Braun",
+            "year": "2001",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0016|esp3884-cit-0016",
+            "doi-asserted-by": "publisher",
+            "first-page": "170",
+            "DOI": "10.1016/j.geomorph.2012.10.008",
+            "article-title": "A very efficient O(n), implicit and parallel method to solve the stream power equation governing fluvial incision and landscape evolution",
+            "volume": "180-181",
+            "author": "Braun",
+            "year": "2013",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0017|esp3884-cit-0017",
+            "doi-asserted-by": "publisher",
+            "first-page": "505",
+            "DOI": "10.1038/379505a0",
+            "article-title": "Bedrock incision, rock uplift and threshold hillslopes in the northwestern Himalayas",
+            "volume": "379",
+            "author": "Burbank",
+            "year": "1996",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0018|esp3884-cit-0018",
+            "doi-asserted-by": "publisher",
+            "first-page": "853",
+            "DOI": "10.1002/esp.1443",
+            "article-title": "Coupling chemical weathering with soil production across soil-mantled landscapes",
+            "volume": "32",
+            "author": "Burke",
+            "year": "2007",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0019|esp3884-cit-0019",
+            "author": "Carson",
+            "year": "1972",
+            "volume-title": "Hillslope Form and Process"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0020|esp3884-cit-0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "628",
+            "DOI": "10.1086/626468",
+            "article-title": "Climate and morphometry",
+            "volume": "65",
+            "author": "Chorley",
+            "year": "1957",
+            "journal-title": "The Journal of Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0021|esp3884-cit-0021",
+            "doi-asserted-by": "publisher",
+            "first-page": "125",
+            "DOI": "10.1130/REG7-p125",
+            "article-title": "Debris slide and debris flow historical events in the Appalachians south of the glacial border",
+            "volume": "7",
+            "author": "Clark",
+            "year": "1987",
+            "journal-title": "Reviews in Engineering Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0022|esp3884-cit-0022",
+            "doi-asserted-by": "publisher",
+            "first-page": "4283",
+            "DOI": "10.1002/2013WR015167",
+            "article-title": "Objective extraction of channel heads from high-resolution topographic data",
+            "volume": "50",
+            "author": "Clubb",
+            "year": "2014",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0023|esp3884-cit-0023",
+            "author": "Cohen",
+            "volume": "114",
+            "year": "2009",
+            "article-title": "The mARM spatially distributed soil evolution model: a computationally efficient modeling framework and analysis of hillslope soil surface organization",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2008JF001214",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0024|esp3884-cit-0024",
+            "author": "Cohen",
+            "volume": "115",
+            "year": "2010",
+            "article-title": "The mARM3D spatially distributed soil evolution model: three-dimensional model framework and analysis of hillslope and landform responses",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2009JF001536",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0025|esp3884-cit-0025",
+            "doi-asserted-by": "publisher",
+            "first-page": "1681",
+            "DOI": "10.1029/93WR03512",
+            "article-title": "Digital elevation model networks (DEMON): a model of flow over hillslopes for computation of contributing and dispersal areas",
+            "volume": "30",
+            "author": "Costa-Cabral",
+            "year": "1994",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0026|esp3884-cit-0026",
+            "doi-asserted-by": "crossref",
+            "first-page": "336",
+            "DOI": "10.1086/626663",
+            "article-title": "Analytical theory of erosion",
+            "volume": "68",
+            "author": "Culling",
+            "year": "1960",
+            "journal-title": "The Journal of Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0027|esp3884-cit-0027",
+            "doi-asserted-by": "publisher",
+            "first-page": "1515",
+            "DOI": "10.1130/B25416.1",
+            "article-title": "Tectonic setting of the Jurassic Smartville and Slate Creek complexes, northern Sierra Nevada, California",
+            "volume": "116",
+            "author": "Day",
+            "year": "2004",
+            "journal-title": "Geological Society of America Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0028|esp3884-cit-0028",
+            "doi-asserted-by": "publisher",
+            "first-page": "855",
+            "DOI": "10.1002/esp.3205",
+            "article-title": "Hillslope response to tectonic forcing in threshold landscapes",
+            "volume": "37",
+            "author": "DiBiase",
+            "year": "2012",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0029|esp3884-cit-0029",
+            "author": "Dietrich",
+            "first-page": "103",
+            "year": "2003",
+            "volume-title": "Prediction in Geomorphology",
+            "DOI": "10.1029/135GM09",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0030|esp3884-cit-0030",
+            "first-page": "191",
+            "article-title": "Sediment budget for a small catchment in mountainous terrain. Z",
+            "volume": "29",
+            "author": "Dietrich",
+            "year": "1978",
+            "journal-title": "Geomorphology Supplement"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0032|esp3884-cit-0032",
+            "doi-asserted-by": "publisher",
+            "first-page": "975",
+            "DOI": "10.1130/G30045A.1",
+            "article-title": "Climate-driven processes of hillslope weathering",
+            "volume": "37",
+            "author": "Dixon",
+            "year": "2009",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0033|esp3884-cit-0033",
+            "doi-asserted-by": "publisher",
+            "first-page": "891",
+            "DOI": "10.1130/0016-7606(1978)89<891:SVAITC>2.0.CO;2",
+            "article-title": "Systematic valley asymmetry in the central California Coast Ranges",
+            "volume": "89",
+            "author": "Dohrenwend",
+            "year": "1978",
+            "journal-title": "Geological Society of America Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0034|esp3884-cit-0034",
+            "unstructured": "Dohrenwend JC 1979 Morphologic Analysis of Gabilan Mesa by Iterative Contour-Generalization: An Improved Method of Geomorphic Cartographic Analysis 83 87"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0035|esp3884-cit-0035",
+            "author": "Dunne",
+            "volume": "115",
+            "year": "2010",
+            "article-title": "A rain splash transport equation assimilating field and laboratory measurements",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2009JF001302",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0036|esp3884-cit-0036",
+            "doi-asserted-by": "publisher",
+            "first-page": "2271",
+            "DOI": "10.1029/91WR01585",
+            "article-title": "Effects of rainfall, vegetation, and microtopography on infiltration and runoff",
+            "volume": "27",
+            "author": "Dunne",
+            "year": "1991",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0037|esp3884-cit-0037",
+            "first-page": "111",
+            "article-title": "Geology of the southern Salinas Valley area, California",
+            "volume": "819",
+            "author": "Durham",
+            "year": "1974",
+            "journal-title": "US Geological Survey Professional Paper"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0038|esp3884-cit-0038",
+            "doi-asserted-by": "publisher",
+            "first-page": "155",
+            "DOI": "10.1007/s11258-007-9352-3",
+            "article-title": "Long-term changes in forest composition and diversity following early logging (1919-1923) and the decline of American chestnut (Castanea dentata)",
+            "volume": "197",
+            "author": "Elliott",
+            "year": "2008",
+            "journal-title": "Plant Ecology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0039|esp3884-cit-0039",
+            "doi-asserted-by": "publisher",
+            "first-page": "131",
+            "DOI": "10.2475/ajs.298.2.131",
+            "article-title": "A geologic history of the north-central Appalachians; Part 3, The Alleghany Orogeny",
+            "volume": "298",
+            "author": "Faill",
+            "year": "1998",
+            "journal-title": "American Journal of Science"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0040|esp3884-cit-0040",
+            "doi-asserted-by": "publisher",
+            "first-page": "1307",
+            "DOI": "10.1029/97WR00534",
+            "article-title": "Hillslope evolution by diffusive processes: the timescale for equilibrium adjustments",
+            "volume": "33",
+            "author": "Fernandes",
+            "year": "1997",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0041|esp3884-cit-0041",
+            "author": "Foufoula-Georgiou",
+            "volume": "115",
+            "year": "2010",
+            "article-title": "A nonlocal theory of sediment transport on hillslopes",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2009JF001280",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0042|esp3884-cit-0042",
+            "author": "Furbish",
+            "first-page": "169",
+            "year": "2003",
+            "volume-title": "Prediction in Geomorphology",
+            "DOI": "10.1029/135GM12",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0043|esp3884-cit-0043",
+            "doi-asserted-by": "publisher",
+            "first-page": "2607",
+            "DOI": "10.1029/2001WR000239",
+            "article-title": "Stability of creeping soil and implications for hillslope evolution",
+            "volume": "37",
+            "author": "Furbish",
+            "year": "2001",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0044|esp3884-cit-0044",
+            "author": "Furbish",
+            "volume": "112",
+            "year": "2007",
+            "article-title": "Rain splash of dry sand revealed by high-speed imaging and sticky paper splash targets",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2006JF000498",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0045|esp3884-cit-0045",
+            "doi-asserted-by": "publisher",
+            "first-page": "937",
+            "DOI": "10.1002/jgrf.20071",
+            "article-title": "Sediment disentrainment and the concept of local versus nonlocal transport on hillslopes",
+            "volume": "118",
+            "author": "Furbish",
+            "year": "2013",
+            "journal-title": "Journal of Geophysical Research, Earth Surface"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0046|esp3884-cit-0046",
+            "author": "Gabet",
+            "volume": "115",
+            "year": "2010",
+            "article-title": "Bedrock erosion by root fracture and tree throw: a coupled biogeomorphic model to explore the humped soil production function and the persistence of hillslope soils",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2009JF001526",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0047|esp3884-cit-0047",
+            "doi-asserted-by": "publisher",
+            "first-page": "1779",
+            "DOI": "10.1002/esp.3754",
+            "article-title": "Local topography and erosion rate control regolith thickness along a ridgeline in the Sierra Nevada, California",
+            "volume": "40",
+            "author": "Gabet",
+            "year": "2015",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0048|esp3884-cit-0048",
+            "doi-asserted-by": "publisher",
+            "first-page": "58",
+            "DOI": "10.1016/j.geomorph.2013.09.018",
+            "article-title": "Biotic origin for Mima mounds supported by numerical modeling",
+            "volume": "206",
+            "author": "Gabet",
+            "year": "2014",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0049|esp3884-cit-0049",
+            "doi-asserted-by": "publisher",
+            "first-page": "629",
+            "DOI": "10.1130/G20641.1",
+            "article-title": "Climatic controls on hillslope angle and relief in the Himalayas",
+            "volume": "32",
+            "author": "Gabet",
+            "year": "2004",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0050|esp3884-cit-0050",
+            "doi-asserted-by": "publisher",
+            "first-page": "169",
+            "DOI": "10.1016/S0169-555X(98)00107-X",
+            "article-title": "The effect of slope length on the amount and size distribution of eroded silt loam soils: short slope laboratory experiments on interrill erosion",
+            "volume": "28",
+            "author": "Gabriels",
+            "year": "1999",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0051|esp3884-cit-0051",
+            "doi-asserted-by": "publisher",
+            "first-page": "951",
+            "DOI": "10.1130/0016-7606(1967)78[951:PAPOTP]2.0.CO;2",
+            "article-title": "Provenance and paleocurrents of the Paso Robles formation, California",
+            "volume": "78",
+            "author": "Galehouse",
+            "year": "1967",
+            "journal-title": "Geological Society of America Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0052|esp3884-cit-0052",
+            "doi-asserted-by": "publisher",
+            "first-page": "4",
+            "DOI": "10.1130/GSATG163A.1",
+            "article-title": "Miocene rejuvenation of topographic relief in the southern Appalachians",
+            "volume": "23",
+            "author": "Gallen",
+            "year": "2013",
+            "journal-title": "GSA Today"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0053|esp3884-cit-0053",
+            "doi-asserted-by": "publisher",
+            "first-page": "1254",
+            "DOI": "10.1002/esp.2150",
+            "article-title": "Hillslope response to knickpoint migration in the Southern Appalachians: implications for the evolution of post-orogenic landscapes",
+            "volume": "36",
+            "author": "Gallen",
+            "year": "2011",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0054|esp3884-cit-0054",
+            "doi-asserted-by": "crossref",
+            "first-page": "344",
+            "DOI": "10.1086/621620",
+            "article-title": "The convexity of hilltops",
+            "volume": "17",
+            "author": "Gilbert",
+            "year": "1909",
+            "journal-title": "The Journal of Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0055|esp3884-cit-0055",
+            "doi-asserted-by": "publisher",
+            "first-page": "222",
+            "DOI": "10.1016/j.epsl.2009.01.005",
+            "article-title": "Landslide volumes and landslide mobilization rates in Umbria, central Italy",
+            "volume": "279",
+            "author": "Guzzetti",
+            "year": "2009",
+            "journal-title": "Earth and Planetary Science Letters"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0056|esp3884-cit-0056",
+            "author": "Hack",
+            "year": "1960",
+            "volume-title": "Geomorphology and forest ecology of a mountain region in the central Appalachians"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0057|esp3884-cit-0057",
+            "author": "Hales",
+            "volume": "114",
+            "year": "2009",
+            "article-title": "Topographic and ecologic controls on root reinforcement",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2008JF001168",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0058|esp3884-cit-0058",
+            "author": "Hales",
+            "volume": "112",
+            "year": "2007",
+            "article-title": "Climatic controls on frost cracking and implications for the evolution of bedrock landscapes",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2006JF000616",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0059|esp3884-cit-0059",
+            "doi-asserted-by": "publisher",
+            "first-page": "121",
+            "DOI": "10.1016/j.geomorph.2011.08.030",
+            "article-title": "Southern Appalachian hillslope erosion rates measured by soil and detrital radiocarbon in hollows",
+            "volume": "138",
+            "author": "Hales",
+            "year": "2012",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0060|esp3884-cit-0060",
+            "author": "Hampel",
+            "year": "2011",
+            "volume-title": "Robust Statistics: The Approach Based on Influence Functions"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0061|esp3884-cit-0061",
+            "doi-asserted-by": "publisher",
+            "first-page": "809",
+            "DOI": "10.1002/esp.1285",
+            "article-title": "Channel head location and characteristics using digital elevation models",
+            "volume": "31",
+            "author": "Hancock",
+            "year": "2006",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0062|esp3884-cit-0062",
+            "doi-asserted-by": "publisher",
+            "first-page": "531",
+            "DOI": "10.1002/esp.209",
+            "article-title": "Stochastic processes of soil production and transport: erosion rates, topographic variation and cosmogenic nuclides in the Oregon Coast Range",
+            "volume": "26",
+            "author": "Heimsath",
+            "year": "2001",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0063|esp3884-cit-0063",
+            "doi-asserted-by": "publisher",
+            "first-page": "949",
+            "DOI": "10.1130/G21868.1",
+            "article-title": "The illusion of diffusion: field evidence for depth-dependent sediment transport",
+            "volume": "33",
+            "author": "Heimsath",
+            "year": "2005",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0064|esp3884-cit-0064",
+            "first-page": "191",
+            "article-title": "A parametric study of soil transport mechanisms",
+            "volume": "398",
+            "author": "Herman",
+            "year": "2006",
+            "journal-title": "Geological Society of America Special Papers"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0065|esp3884-cit-0065",
+            "doi-asserted-by": "publisher",
+            "first-page": "367",
+            "DOI": "10.1130/G24517A.1",
+            "article-title": "Geomorphic response to uplift along the Dragon's Back pressure ridge, Carrizo Plain, California",
+            "volume": "36",
+            "author": "Hilley",
+            "year": "2008",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0066|esp3884-cit-0066",
+            "doi-asserted-by": "publisher",
+            "first-page": "350",
+            "DOI": "10.1029/TR013i001p00350",
+            "article-title": "Drainage-basin characteristics",
+            "volume": "13",
+            "author": "Horton",
+            "year": "1932",
+            "journal-title": "Transactions, American Geophysical Union"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0067|esp3884-cit-0067",
+            "doi-asserted-by": "publisher",
+            "first-page": "275",
+            "DOI": "10.1130/0016-7606(1945)56[275:EDOSAT]2.0.CO;2",
+            "article-title": "Erosional development of streams and their drainage basins; hydrophysical approach to quantitative morphology",
+            "volume": "56",
+            "author": "Horton",
+            "year": "1945",
+            "journal-title": "Geological Society of America Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0068|esp3884-cit-0068",
+            "doi-asserted-by": "crossref",
+            "first-page": "211",
+            "DOI": "10.1002/(SICI)1096-9837(199703)22:3<211::AID-ESP749>3.0.CO;2-E",
+            "article-title": "Badland morphology and evolution: Interpretation using a simulation model",
+            "volume": "22",
+            "author": "Howard",
+            "year": "1997",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0069|esp3884-cit-0069",
+            "author": "Hursh",
+            "first-page": "253",
+            "year": "1941",
+            "volume-title": "The geomorphic aspects of mudflows as a type of accelerated erosion in the Southern Appalachian"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0070|esp3884-cit-0070",
+            "author": "Hurst",
+            "volume": "117",
+            "year": "2012",
+            "article-title": "Using hilltop curvature to derive the spatial distribution of erosion rates",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2011JF002057",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0071|esp3884-cit-0071",
+            "doi-asserted-by": "publisher",
+            "first-page": "868",
+            "DOI": "10.1126/science.1241791",
+            "article-title": "Hillslopes record the growth and decay of landscapes",
+            "volume": "341",
+            "author": "Hurst",
+            "year": "2013a",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0072|esp3884-cit-0072",
+            "doi-asserted-by": "publisher",
+            "first-page": "832",
+            "DOI": "10.1002/jgrf.20049",
+            "article-title": "Influence of lithology on hillslope morphology and response to tectonic forcing in the northern Sierra Nevada of California",
+            "volume": "118",
+            "author": "Hurst",
+            "year": "2013b",
+            "journal-title": "Journal of Geophysical Research, Earth Surface"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0073|esp3884-cit-0073",
+            "doi-asserted-by": "publisher",
+            "first-page": "67",
+            "DOI": "10.5194/esurf-1-67-2013",
+            "article-title": "Controls on the magnitude-frequency scaling of an inventory of secular landslides",
+            "volume": "1",
+            "author": "Hurst",
+            "year": "2013c",
+            "journal-title": "Earth Surface Dynamics"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0074|esp3884-cit-0074",
+            "doi-asserted-by": "publisher",
+            "first-page": "601",
+            "DOI": "10.1002/esp.3308",
+            "article-title": "Channel network extent in the context of historical land use, flow generation processes, and landscape evolution in the North Carolina Piedmont",
+            "volume": "38",
+            "author": "Jefferson",
+            "year": "2013",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0076|esp3884-cit-0076",
+            "doi-asserted-by": "publisher",
+            "first-page": "194",
+            "DOI": "10.1016/j.geomorph.2012.07.029",
+            "article-title": "Channel head locations in forested watersheds across the mid-Atlantic United States: a physiographic analysis",
+            "volume": "177-178",
+            "author": "Julian",
+            "year": "2012",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0077|esp3884-cit-0077",
+            "doi-asserted-by": "publisher",
+            "first-page": "843",
+            "DOI": "10.1130/0016-7606(1996)108<0843:QUPDIC>2.3.CO;2",
+            "article-title": "Quaternary upper plate deformation in coastal Oregon",
+            "volume": "108",
+            "author": "Kelsey",
+            "year": "1996",
+            "journal-title": "Geological Society of America Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0078|esp3884-cit-0078",
+            "unstructured": "Kim H Arrowsmith J Crosby CJ Jaeger-Frank E Nandigam V Memon A Conner J Baden SB Baru C 2006 An efficient implementation of a local binning algorithm for digital elevation model generation of LiDAR/ALSM dataset"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0079|esp3884-cit-0079",
+            "doi-asserted-by": "publisher",
+            "first-page": "2",
+            "DOI": "10.1016/j.catena.2009.01.008",
+            "article-title": "The influence of raindrop induced saltation on particle size distributions in sediment discharged by rain-impacted flow on planar surfaces",
+            "volume": "78",
+            "author": "Kinnell",
+            "year": "2009",
+            "journal-title": "Catena"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0080|esp3884-cit-0080",
+            "author": "Klar",
+            "volume": "116",
+            "year": "2011",
+            "article-title": "Analytical and observational relations between landslide volume and surface area",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2009JF001604",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0081|esp3884-cit-0081",
+            "doi-asserted-by": "publisher",
+            "first-page": "1041",
+            "DOI": "10.2475/ajs.289.9.1041",
+            "article-title": "The topographic evolution of collisional mountain belts; a numerical look at the Southern Alps, New Zealand",
+            "volume": "289",
+            "author": "Koons",
+            "year": "1989",
+            "journal-title": "American Journal of Science"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0082|esp3884-cit-0082",
+            "author": "Korup",
+            "volume": "35",
+            "year": "2008",
+            "article-title": "Rock type leaves topographic signature in landslide-dominated mountain ranges",
+            "journal-title": "Geophysical Research Letters",
+            "DOI": "10.1029/2008GL034157",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0083|esp3884-cit-0083",
+            "author": "Lashermes",
+            "volume": "34",
+            "year": "2007",
+            "article-title": "Channel network extraction from high resolution topography using wavelets",
+            "journal-title": "Geophysical Research Letters",
+            "DOI": "10.1029/2007GL031140",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0084|esp3884-cit-0084",
+            "author": "Lea",
+            "volume": "147-175",
+            "year": "1992",
+            "volume-title": "Overland Flow: Hydraulics and Erosion Mechanics"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0085|esp3884-cit-0085",
+            "doi-asserted-by": "publisher",
+            "first-page": "1759",
+            "DOI": "10.2136/sssaj2000.6451759x",
+            "article-title": "Slope length effects on soil loss for steep slopes",
+            "volume": "64",
+            "author": "Liu",
+            "year": "2000",
+            "journal-title": "Soil Science Society of America Journal"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0086|esp3884-cit-0086",
+            "doi-asserted-by": "publisher",
+            "first-page": "168",
+            "DOI": "10.3138/10LM-4435-6310-251R",
+            "article-title": "Part 4: Mathematical, algorithmic and data structure issues: automated detection of drainage networks from digital elevation models",
+            "volume": "21",
+            "author": "Mark",
+            "year": "1984",
+            "journal-title": "Cartographica: The International Journal for Geographic Information and Geovisualization"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0087|esp3884-cit-0087",
+            "doi-asserted-by": "publisher",
+            "first-page": "545",
+            "DOI": "10.1016/0341-8162(89)90041-6",
+            "article-title": "The effect of slope gradient and length on the parameters of a sediment transport equation for sheetwash",
+            "volume": "16",
+            "author": "Mathier",
+            "year": "1989",
+            "journal-title": "Catena"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0088|esp3884-cit-0088",
+            "doi-asserted-by": "publisher",
+            "first-page": "155",
+            "DOI": "10.1130/0091-7613(2003)031<0155:TASURO>2.0.CO;2",
+            "article-title": "Temporally and spatially uniform rates of erosion in the southern Appalachian Great Smoky Mountains",
+            "volume": "31",
+            "author": "Matmon",
+            "year": "2003",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0089|esp3884-cit-0089",
+            "doi-asserted-by": "publisher",
+            "first-page": "343",
+            "DOI": "10.1130/0091-7613(1993)021<0343:QOSPAD>2.3.CO;2",
+            "article-title": "Quantification of soil production and downslope creep rates from cosmogenic 10Be accumulations on a hillslope profile",
+            "volume": "21",
+            "author": "McKean",
+            "year": "1993",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0090|esp3884-cit-0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "31",
+            "DOI": "10.1890/14-0649.1",
+            "article-title": "Erosion rates as a potential bottom-up control of forest structural characteristics in the Sierra Nevada Mountains",
+            "volume": "96",
+            "author": "Milodowski",
+            "year": "2015",
+            "journal-title": "Ecology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0091|esp3884-cit-0091",
+            "doi-asserted-by": "publisher",
+            "first-page": "629",
+            "DOI": "10.1080/02693799608902101",
+            "article-title": "Modelling topographic potential for erosion and deposition using GIS",
+            "volume": "10",
+            "author": "Mitasova",
+            "year": "1996",
+            "journal-title": "International Journal of Geographical Information Systems"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0092|esp3884-cit-0092",
+            "doi-asserted-by": "publisher",
+            "first-page": "855",
+            "DOI": "10.1029/97WR02709",
+            "article-title": "On the sensitivity of drainage density to climate change",
+            "volume": "34",
+            "author": "Moglen",
+            "year": "1998",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0093|esp3884-cit-0093",
+            "doi-asserted-by": "publisher",
+            "first-page": "432",
+            "DOI": "10.2475/ajs.301.4-5.432",
+            "article-title": "Slope distributions, threshold hillslopes, and steady-state topography",
+            "volume": "301",
+            "author": "Montgomery",
+            "year": "2001",
+            "journal-title": "American Journal of Science"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0094|esp3884-cit-0094",
+            "doi-asserted-by": "publisher",
+            "first-page": "481",
+            "DOI": "10.1016/S0012-821X(02)00725-2",
+            "article-title": "Topographic controls on erosion rates in tectonically active mountain ranges",
+            "volume": "201",
+            "author": "Montgomery",
+            "year": "2002",
+            "journal-title": "Earth and Planetary Science Letters"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0095|esp3884-cit-0095",
+            "doi-asserted-by": "publisher",
+            "first-page": "1907",
+            "DOI": "10.1029/WR025i008p01907",
+            "article-title": "Source areas, drainage density, and channel initiation",
+            "volume": "25",
+            "author": "Montgomery",
+            "year": "1989",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0096|esp3884-cit-0096",
+            "doi-asserted-by": "crossref",
+            "first-page": "826",
+            "DOI": "10.1126/science.255.5046.826",
+            "article-title": "Channel initiation and the problem of landscape scale",
+            "volume": "255",
+            "author": "Montgomery",
+            "year": "1992",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0097|esp3884-cit-0097",
+            "doi-asserted-by": "publisher",
+            "first-page": "3925",
+            "DOI": "10.1029/93WR02463",
+            "article-title": "Channel network source representation using digital elevation models",
+            "volume": "29",
+            "author": "Montgomery",
+            "year": "1993",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0098|esp3884-cit-0098",
+            "doi-asserted-by": "publisher",
+            "first-page": "311",
+            "DOI": "10.1130/0091-7613(2000)28<311:FCARL>2.0.CO;2",
+            "article-title": "Forest clearing and regional landsliding",
+            "volume": "28",
+            "author": "Montgomery",
+            "year": "2000",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0099|esp3884-cit-0099",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.1002/hyp.3360050103",
+            "article-title": "Digital terrain modelling: a review of hydrological, geomorphological, and biological applications",
+            "volume": "5",
+            "author": "Moore",
+            "year": "1991",
+            "journal-title": "Hydrological Processes"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0100|esp3884-cit-0100",
+            "author": "Mudd",
+            "volume": "109",
+            "year": "2004",
+            "article-title": "Influence of chemical denudation on hillslope morphology",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2003JF000087",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0101|esp3884-cit-0101",
+            "author": "Mudd",
+            "volume": "110",
+            "year": "2005",
+            "article-title": "Lateral migration of hillcrests in response to channel incision in soil-mantled landscapes",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2005JF000313",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0102|esp3884-cit-0102",
+            "author": "Mudd",
+            "volume": "112",
+            "year": "2007",
+            "article-title": "Responses of soil-mantled hillslopes to transient channel incision rates",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2006JF000516.",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0103|esp3884-cit-0103",
+            "doi-asserted-by": "publisher",
+            "first-page": "323",
+            "DOI": "10.1016/S0734-189X(84)80011-0",
+            "article-title": "The extraction of drainage networks from digital elevation data",
+            "volume": "28",
+            "author": "O'Callaghan",
+            "year": "1984",
+            "journal-title": "Computer Vision Graphics and Image Processing"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0104|esp3884-cit-0104",
+            "doi-asserted-by": "publisher",
+            "first-page": "107",
+            "DOI": "10.1002/(SICI)1096-9837(199702)22:2<107::AID-ESP680>3.0.CO;2-U",
+            "article-title": "Drainage density and relative relief in humid steep mountains with frequent slope failure",
+            "volume": "22",
+            "author": "Oguchi",
+            "year": "1997",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0105|esp3884-cit-0105",
+            "author": "Orlandini",
+            "volume": "47",
+            "year": "2011",
+            "article-title": "On the prediction of channel heads in a complex alpine terrain using gridded elevation data",
+            "journal-title": "Water Resources Research",
+            "DOI": "10.1029/2010WR009648",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0106|esp3884-cit-0106",
+            "doi-asserted-by": "publisher",
+            "first-page": "727",
+            "DOI": "10.1130/0091-7613(1997)025<0727:OOTCAA>2.3.CO;2",
+            "article-title": "Opening of the central Atlantic and asymmetric mantle upwelling phenomena: implications for long-lived magmatism in western North Africa and Europe",
+            "volume": "25",
+            "author": "Oyarzun",
+            "year": "1997",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0107|esp3884-cit-0107",
+            "author": "Passalacqua",
+            "volume": "115",
+            "year": "2010",
+            "article-title": "A geometric framework for channel network extraction from lidar: nonlinear diffusion and geodesic paths",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2009JF001254",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0108|esp3884-cit-0108",
+            "doi-asserted-by": "publisher",
+            "first-page": "91",
+            "DOI": "10.1016/j.geomorph.2010.06.001",
+            "article-title": "Minimizing the grid-resolution dependence of flow-routing algorithms for geomorphic applications",
+            "volume": "122",
+            "author": "Pelletier",
+            "year": "2010",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0109|esp3884-cit-0109",
+            "author": "Pelletier",
+            "volume": "116",
+            "year": "2011",
+            "article-title": "Calibration and testing of upland hillslope evolution models in a dated landscape: Banco Bonito, New Mexico",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2011JF001976",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0110|esp3884-cit-0110",
+            "doi-asserted-by": "publisher",
+            "first-page": "75",
+            "DOI": "10.1029/2012WR012452",
+            "article-title": "A robust, two-parameter method for the extraction of drainage networks from high-resolution digital elevation models (DEMs): evaluation using synthetic and real-world DEMs",
+            "volume": "49",
+            "author": "Pelletier",
+            "year": "2013",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0111|esp3884-cit-0111",
+            "doi-asserted-by": "publisher",
+            "first-page": "1067",
+            "DOI": "10.1130/G23992A.1",
+            "article-title": "Nonlinear slope-dependent sediment transport in cinder cone evolution",
+            "volume": "35",
+            "author": "Pelletier",
+            "year": "2007",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0112|esp3884-cit-0112",
+            "author": "Perron",
+            "volume": "113",
+            "year": "2008",
+            "article-title": "Spectral signatures of characteristic spatial scales and nonfractal structure in landscapes",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2007JF000866",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0113|esp3884-cit-0113",
+            "doi-asserted-by": "publisher",
+            "first-page": "502",
+            "DOI": "10.1038/nature08174",
+            "article-title": "Formation of evenly spaced ridges and valleys",
+            "volume": "460",
+            "author": "Perron",
+            "year": "2009",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0114|esp3884-cit-0114",
+            "doi-asserted-by": "publisher",
+            "first-page": "563",
+            "DOI": "10.1029/TC007i003p00563",
+            "article-title": "Continental erosion and large-scale relief",
+            "volume": "7",
+            "author": "Pinet",
+            "year": "1988",
+            "journal-title": "Tectonics"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0115|esp3884-cit-0115",
+            "doi-asserted-by": "publisher",
+            "first-page": "101",
+            "DOI": "10.2138/am.2005.1444",
+            "article-title": "Allanite and epidote weathering at the Coweeta Hydrologic Laboratory, western North Carolina, USA",
+            "volume": "90",
+            "author": "Price",
+            "year": "2005",
+            "journal-title": "American Mineralogist"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0116|esp3884-cit-0116",
+            "doi-asserted-by": "publisher",
+            "first-page": "307",
+            "DOI": "10.1002/esp.3290160405",
+            "article-title": "Erosion rates in the southern oregon coast range: Evidence for an equilibrium between hillslope erosion and sediment yield",
+            "volume": "16",
+            "author": "Reneau",
+            "year": "1991",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0117|esp3884-cit-0117",
+            "doi-asserted-by": "crossref",
+            "first-page": "45",
+            "DOI": "10.1086/629280",
+            "article-title": "Analysis of hillslope erosion rates using dated colluvial deposits",
+            "volume": "97",
+            "author": "Reneau",
+            "year": "1989",
+            "journal-title": "The Journal of Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0118|esp3884-cit-0118",
+            "doi-asserted-by": "publisher",
+            "first-page": "4411",
+            "DOI": "10.1016/S0016-7037(03)00382-X",
+            "article-title": "Long-term rates of chemical weathering and physical erosion from cosmogenic nuclides and geochemical mass balance",
+            "volume": "67",
+            "author": "Riebe",
+            "year": "2003",
+            "journal-title": "Geochimica et Cosmochimica Acta"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0119|esp3884-cit-0119",
+            "doi-asserted-by": "publisher",
+            "first-page": "547",
+            "DOI": "10.1016/j.epsl.2004.05.019",
+            "article-title": "Erosional and climatic effects on long-term chemical weathering rates in granitic landscapes spanning diverse climate regimes",
+            "volume": "224",
+            "author": "Riebe",
+            "year": "2004",
+            "journal-title": "Earth and Planetary Science Letters"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0120|esp3884-cit-0120",
+            "doi-asserted-by": "publisher",
+            "first-page": "803",
+            "DOI": "10.1130/0091-7613(2000)28<803:EEADIT>2.0.CO;2",
+            "article-title": "Erosional equilibrium and disequilibrium in the Sierra Nevada, inferred from cosmogenic 26Al and 10Be in alluvial sediment",
+            "volume": "28",
+            "author": "Riebe",
+            "year": "2000",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0121|esp3884-cit-0121",
+            "doi-asserted-by": "publisher",
+            "first-page": "632",
+            "DOI": "10.1038/374632a0",
+            "article-title": "Geomorphological signatures of varying climate",
+            "volume": "374",
+            "author": "Rinaldo",
+            "year": "1995",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0122|esp3884-cit-0122",
+            "doi-asserted-by": "publisher",
+            "first-page": "1248",
+            "DOI": "10.1130/B26283.1",
+            "article-title": "How well can hillslope evolution models ‘explain’ topography? Simulating soil transport and production with high-resolution topographic data",
+            "volume": "120",
+            "author": "Roering",
+            "year": "2008",
+            "journal-title": "Geological Society of America Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0123|esp3884-cit-0123",
+            "author": "Roering",
+            "volume": "109",
+            "year": "2004",
+            "article-title": "Constraining climatic controls on hillslope dynamics using a coupled model for the transport of soil and tracers: application to loess-mantled hillslopes, South Island, New Zealand",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2003JF000034",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0124|esp3884-cit-0124",
+            "doi-asserted-by": "publisher",
+            "first-page": "853",
+            "DOI": "10.1029/1998WR900090",
+            "article-title": "Evidence for nonlinear, diffusive sediment transport on hillslopes and implications for landscape morphology",
+            "volume": "35",
+            "author": "Roering",
+            "year": "1999",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0125|esp3884-cit-0125",
+            "doi-asserted-by": "publisher",
+            "first-page": "16499",
+            "DOI": "10.1029/2001JB000323",
+            "article-title": "Hillslope evolution by nonlinear, slope-dependent transport: Steady state morphology and equilibrium adjustment timescales",
+            "volume": "106",
+            "author": "Roering",
+            "year": "2001",
+            "journal-title": "Journal of Geophysical Research, Solid Earth"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0126|esp3884-cit-0126",
+            "doi-asserted-by": "publisher",
+            "first-page": "183",
+            "DOI": "10.1016/j.epsl.2010.07.040",
+            "article-title": "Evidence for biotic controls on topography and soil production",
+            "volume": "298",
+            "author": "Roering",
+            "year": "2010",
+            "journal-title": "Earth and Planetary Science Letters"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0127|esp3884-cit-0127",
+            "doi-asserted-by": "publisher",
+            "first-page": "245",
+            "DOI": "10.1016/j.epsl.2007.09.035",
+            "article-title": "Functional relationships between denudation and hillslope form and relief",
+            "volume": "264",
+            "author": "Roering",
+            "year": "2007",
+            "journal-title": "Earth and Planetary Science Letters"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0128|esp3884-cit-0128",
+            "doi-asserted-by": "publisher",
+            "first-page": "14013",
+            "DOI": "10.1029/94JB00048",
+            "article-title": "Hillslope and channel evolution in a marine terraced landscape, Santa Cruz, California",
+            "volume": "99",
+            "author": "Rosenbloom",
+            "year": "1994",
+            "journal-title": "Journal of Geophysical Research, Solid Earth"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0129|esp3884-cit-0129",
+            "doi-asserted-by": "publisher",
+            "first-page": "597",
+            "DOI": "10.1130/0016-7606(1956)67[597:EODSAS]2.0.CO;2",
+            "article-title": "Evolution of drainage systems and slopes in badlands at Perth Amboy, New Jersey",
+            "volume": "67",
+            "author": "Schumm",
+            "year": "1956",
+            "journal-title": "Geological Society of America Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0130|esp3884-cit-0130",
+            "doi-asserted-by": "publisher",
+            "first-page": "1847",
+            "DOI": "10.1002/esp.2206",
+            "article-title": "Detection of surface change in complex topography using terrestrial laser scanning: application to the Illgraben debris-flow channel",
+            "volume": "36",
+            "author": "Schürch",
+            "year": "2011",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0131|esp3884-cit-0131",
+            "doi-asserted-by": "publisher",
+            "first-page": "2105",
+            "DOI": "10.1002/jgrf.20127",
+            "article-title": "Impact of flow routing on catchment area calculations, slope estimates, and numerical simulations of landscape development",
+            "volume": "118",
+            "author": "Shelef",
+            "year": "2013",
+            "journal-title": "Journal of Geophysical Research, Earth Surface"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0132|esp3884-cit-0132",
+            "doi-asserted-by": "publisher",
+            "first-page": "131",
+            "DOI": "10.1016/S0169-555X(98)00094-4",
+            "article-title": "Estimates of the rate of regolith production using 10Be and 26Al from an alpine hillslope",
+            "volume": "27",
+            "author": "Small",
+            "year": "1999",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0133|esp3884-cit-0133",
+            "doi-asserted-by": "publisher",
+            "first-page": "227",
+            "DOI": "10.1080/00221686.2004.9728388",
+            "article-title": "Measurement and analysis of alluvial bed roughness",
+            "volume": "42",
+            "author": "Smart",
+            "year": "2004",
+            "journal-title": "Journal of Hydraulic Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0134|esp3884-cit-0134",
+            "first-page": "461",
+            "article-title": "Rhythmic-bedded eugeosynclinal deposits of the Tyee formation, Oregon Coast Range",
+            "volume": "169",
+            "author": "Snavely",
+            "year": "1964",
+            "journal-title": "Kansas Geological Survey Bulletin"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0135|esp3884-cit-0135",
+            "doi-asserted-by": "publisher",
+            "first-page": "193",
+            "DOI": "10.1130/G20197.1",
+            "article-title": "Pace of landscape evolution in the Sierra Nevada, California, revealed by cosmogenic dating of cave sediments",
+            "volume": "32",
+            "author": "Stock",
+            "year": "2004",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0136|esp3884-cit-0136",
+            "doi-asserted-by": "publisher",
+            "first-page": "1089",
+            "DOI": "10.1029/2001WR001057",
+            "article-title": "Valley incision by debris flows: evidence of a topographic signature",
+            "volume": "39",
+            "author": "Stock",
+            "year": "2003",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0137|esp3884-cit-0137",
+            "author": "Swift",
+            "first-page": "35",
+            "year": "1988",
+            "volume-title": "Forest Hydrology and Ecology at Coweeta",
+            "DOI": "10.1007/978-1-4612-3732-7_3",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0138|esp3884-cit-0138",
+            "doi-asserted-by": "publisher",
+            "first-page": "309",
+            "DOI": "10.1029/96WR03137",
+            "article-title": "A new method for the determination of flow directions and upslope areas in grid digital elevation models",
+            "volume": "33",
+            "author": "Tarboton",
+            "year": "1997",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0139|esp3884-cit-0139",
+            "doi-asserted-by": "publisher",
+            "first-page": "81",
+            "DOI": "10.1002/hyp.3360050107",
+            "article-title": "On the extraction of channel networks from digital elevation data",
+            "volume": "5",
+            "author": "Tarboton",
+            "year": "1991",
+            "journal-title": "Hydrological Processes"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0140|esp3884-cit-0140",
+            "doi-asserted-by": "publisher",
+            "first-page": "295",
+            "DOI": "10.1016/j.geomorph.2014.03.008",
+            "article-title": "High-resolution topography for understanding earth surface processes: opportunities and challenges",
+            "volume": "216",
+            "author": "Tarolli",
+            "year": "2014",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0141|esp3884-cit-0141",
+            "doi-asserted-by": "publisher",
+            "first-page": "47",
+            "DOI": "10.1016/j.geomorph.2009.02.006",
+            "article-title": "Hillslope-to-valley transition morphology: new opportunities from high resolution DTMs",
+            "volume": "113",
+            "author": "Tarolli",
+            "year": "2009",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0142|esp3884-cit-0142",
+            "author": "Thompson",
+            "volume": "46",
+            "year": "2010",
+            "article-title": "Role of microtopography in rainfall-runoff partitioning: an analysis using idealized geometry",
+            "journal-title": "Water Resources Research",
+            "DOI": "10.1029/2009WR008835",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0143|esp3884-cit-0143",
+            "doi-asserted-by": "publisher",
+            "first-page": "1129",
+            "DOI": "10.1002/esp.3708",
+            "article-title": "The topographic signature of a major typhoon",
+            "volume": "40",
+            "author": "Tseng",
+            "year": "2015",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0144|esp3884-cit-0144",
+            "author": "Tucker",
+            "volume": "115",
+            "year": "2010",
+            "article-title": "Trouble with diffusion: reassessing hillslope erosion laws with a particle-based model",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2009JF001264",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0145|esp3884-cit-0145",
+            "doi-asserted-by": "publisher",
+            "first-page": "2751",
+            "DOI": "10.1029/98WR01474",
+            "article-title": "Hillslope processes, drainage density, and landscape morphology",
+            "volume": "34",
+            "author": "Tucker",
+            "year": "1998",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0146|esp3884-cit-0146",
+            "doi-asserted-by": "publisher",
+            "first-page": "187",
+            "DOI": "10.1016/S0169-555X(00)00056-8",
+            "article-title": "Statistical analysis of drainage density from digital terrain data",
+            "volume": "36",
+            "author": "Tucker",
+            "year": "2001",
+            "journal-title": "Geomorphology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0147|esp3884-cit-0147",
+            "doi-asserted-by": "publisher",
+            "first-page": "2031",
+            "DOI": "10.1029/97WR00409",
+            "article-title": "Drainage basin responses to climate change",
+            "volume": "33",
+            "author": "Tucker",
+            "year": "1997",
+            "journal-title": "Water Resources Research"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0148|esp3884-cit-0148",
+            "doi-asserted-by": "publisher",
+            "first-page": "97",
+            "DOI": "10.1016/j.catena.2008.09.012",
+            "article-title": "LiDAR-derived slopes for headwater channel network analysis",
+            "volume": "76",
+            "author": "Vianello",
+            "year": "2009",
+            "journal-title": "Catena"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0150|esp3884-cit-0150",
+            "doi-asserted-by": "publisher",
+            "first-page": "3",
+            "DOI": "10.2113/gseegeosci.6.1.3",
+            "article-title": "Debris-flow hazards in the Blue Ridge of central Virginia",
+            "volume": "6",
+            "author": "Wieczorek",
+            "year": "2000",
+            "journal-title": "Environmental and Engineering Geoscience"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0151|esp3884-cit-0151",
+            "doi-asserted-by": "crossref",
+            "first-page": "237",
+            "DOI": "10.1002/esp.3290160305",
+            "article-title": "Results from a new model of river basin evolution",
+            "volume": "16",
+            "author": "Willgoose",
+            "year": "1991",
+            "journal-title": "Earth Surface Processes and Landforms"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0152|esp3884-cit-0152",
+            "first-page": "58",
+            "article-title": "A brief history of debris flow occurrence in the French Broad River Watershed, western North Carolina",
+            "volume": "13",
+            "author": "Witt",
+            "year": "2005",
+            "journal-title": "NC Geographic"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0153|esp3884-cit-0153",
+            "doi-asserted-by": "publisher",
+            "first-page": "917",
+            "DOI": "10.1130/G21831.1",
+            "article-title": "Process-based model linking pocket gopher (Thomomys bottae) activity to sediment transport and soil thickness",
+            "volume": "33",
+            "author": "Yoo",
+            "year": "2005",
+            "journal-title": "Geology"
+          },
+          {
+            "key": "10.1002/esp.3884-BIB0154|esp3884-cit-0154",
+            "author": "Yoo",
+            "volume": "112",
+            "year": "2007",
+            "article-title": "Integration of geochemical mass balance with sediment transport to calculate rates of soil chemical weathering and transport on hillslopes",
+            "journal-title": "Journal of Geophysical Research, Earth Surface",
+            "DOI": "10.1029/2005JF000402",
+            "doi-asserted-by": "publisher"
+          },
+          {
+            "issue": "Supplement",
+            "key": "10.1002/esp.3884-BIB0155|esp3884-cit-0155",
+            "doi-asserted-by": "publisher",
+            "first-page": "S149",
+            "DOI": "10.1016/j.apgeochem.2011.03.054",
+            "article-title": "Evolution of hillslope soils: the geomorphic theater and the geochemical play",
+            "volume": "26",
+            "author": "Yoo",
+            "year": "2011",
+            "journal-title": "Applied Geochemistry"
+          }
+        ],
+        "container-title": [
+          "Earth Surface Processes and Landforms"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fesp.3884",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              24
+            ]
+          ],
+          "date-time": "2017-06-24T01:21:35Z",
+          "timestamp": 1498267295000
+        },
+        "score": 95.12947,
+        "subtitle": [
+          "How long is a hillslope?"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              11
+            ]
+          ]
+        },
+        "references-count": 152,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                6,
+                30
+              ]
+            ]
+          },
+          "issue": "8"
+        },
+        "URL": "http://dx.doi.org/10.1002/esp.3884",
+        "archive": [
+          "Portico"
+        ],
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "0197-9337"
+        ],
+        "issn-type": [
+          {
+            "value": "0197-9337",
+            "type": "print"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 1,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}
