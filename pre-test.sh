@@ -4,7 +4,8 @@
 csplit -f temp -s src/content.js '/^function /'
 rm temp00
 
-echo "// THIS IS AN AUTOMATICALLY GENERATED FILE. DO NOT EDIT.\n\n" > test/mainLogic.js
+echo "// THIS IS AN AUTOMATICALLY GENERATED FILE. DO NOT EDIT.\n" > test/mainLogic.js
+echo "const $ = require('../src/third-party/jquery-3.4.0.min.js');\n" >> test/mainLogic.js
 cat temp01 >> test/mainLogic.js
 echo "module.exports = {" >> test/mainLogic.js
 
