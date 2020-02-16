@@ -49,14 +49,14 @@
             var a = $('<a>Bibtex</a>');
             a.attr("title", 'Bibtex');
             
-            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+            a.attr("href", 'https://www.doi2bib.org/bib/' + doi);
 
           } else if (titleLengthCompare(rettitle, title)) {  //check for match on titles of different lengths
 
             var a = $('<a>Bibtex</a>');
             a.attr("title", 'Bibtex');
             
-            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+            a.attr("href", 'https://www.doi2bib.org/bib/' + doi);
 
           } else {
             var a = $('<a>No DOI Found</a>');
