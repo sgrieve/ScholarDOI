@@ -1,5 +1,5 @@
 ## ScholarDOI
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-green.svg?style=flat-square)](#contributors)
 
 A simple Google Chrome extension that uses the crossref API and [doi2bib](https://doi2bib.org) to provide 1 click access to bibtex files which contain a DOI.
 
