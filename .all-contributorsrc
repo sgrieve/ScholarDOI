@@ -12,9 +12,9 @@
       "profile": "http://dramsch.net",
       "contributions": [
         "code"
-        ]
-        },
-  {
+      ]
+    },
+    {
       "login": "sgrieve",
       "name": "Stuart Grieve",
       "avatar_url": "https://avatars1.githubusercontent.com/u/10617231?v=4",
@@ -23,7 +23,16 @@
         "code",
         "maintenance",
         "review"
-
+      ]
+    },
+    {
+      "login": "davidteather",
+      "name": "David Teather",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34144122?v=4",
+      "profile": "https://github.com/davidteather",
+      "contributions": [
+        "code",
+        "maintenance"
       ]
     }
   ],
@@ -31,5 +40,6 @@
   "projectName": "ScholarDOI",
   "projectOwner": "sgrieve",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
