@@ -26,11 +26,18 @@ If you have problems with this extension, open an issue, and I will try and reso
 This extension has been developed by the following people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://dramsch.net"><img src="https://avatars3.githubusercontent.com/u/2620316?v=4" width="100px;" alt=""/><br /><sub><b>Jesper Dramsch</b></sub></a><br /><a href="https://github.com/sgrieve/ScholarDOI/commits?author=JesperDramsch" title="Code">💻</a></td>
+    <td align="center"><a href="http://swdg.io"><img src="https://avatars1.githubusercontent.com/u/10617231?v=4" width="100px;" alt=""/><br /><sub><b>Stuart Grieve</b></sub></a><br /><a href="https://github.com/sgrieve/ScholarDOI/commits?author=sgrieve" title="Code">💻</a> <a href="#maintenance-sgrieve" title="Maintenance">🚧</a> <a href="https://github.com/sgrieve/ScholarDOI/pulls?q=is%3Apr+reviewed-by%3Asgrieve" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/rayset"><img src="https://avatars3.githubusercontent.com/u/9410263?v=4" width="100px;" alt=""/><br /><sub><b>rayset</b></sub></a><br /><a href="https://github.com/sgrieve/ScholarDOI/pulls?q=is%3Apr+reviewed-by%3Arayset" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
 
-<table><tr><td align="center"><a href="http://swdg.io"><img src="https://avatars1.githubusercontent.com/u/10617231?v=4" width="100px;" alt="Stuart Grieve"/><br /><sub><b>Stuart Grieve</b></sub></a><br /><a href="https://github.com/sgrieve/ScholarDOI/commits?author=sgrieve" title="Code">💻</a> <a href="#maintenance-sgrieve" title="Maintenance">🚧</a> <a href="#review-sgrieve" title="Reviewed Pull Requests">👀</a></td><td align="center"><a href="http://dramsch.net"><img src="https://avatars3.githubusercontent.com/u/2620316?v=4" width="100px;" alt="Jesper Dramsch"/><br /><sub><b>Jesper Dramsch</b></sub></a><br /><a href="https://github.com/sgrieve/ScholarDOI/commits?author=JesperDramsch" title="Code">💻</a></td></tr></table>
-
-
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
