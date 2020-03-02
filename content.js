@@ -1,4 +1,4 @@
-$( '.gs_ri' ).each(function( index ) {
+﻿$( '.gs_ri' ).each(function( index ) {
 
   var paper = $(  this );
 
@@ -15,7 +15,7 @@ $( '.gs_ri' ).each(function( index ) {
   } else {
 
     // Parse the DOIs and do a search
-    var query = 'https://api.crossref.org/works?rows=1&sort=relevance&query.title=';
+    var query = 'https://api.crossref.org/works?rows=1&sort=relevance&query.bibliographic=';
     var title = paper.children( '.gs_rt' ).children().last().text().trim();
     var authors = paper.children('.gs_a').text().split('-')[0].split(' ');
 
@@ -48,13 +48,15 @@ $( '.gs_ri' ).each(function( index ) {
           if (rettitle === title){ // Check whether the cleaned titles match
             var a = $('<a>Bibtex</a>');
             a.attr("title", 'Bibtex');
-            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+            
+            a.attr("href", 'https://www.doi2bib.org/bib/' + doi);
 
           } else if (titleLengthCompare(rettitle, title)) {  //check for match on titles of different lengths
 
             var a = $('<a>Bibtex</a>');
             a.attr("title", 'Bibtex');
-            a.attr("href", 'https://doi2bib.org/bib/' + doi);
+            
+            a.attr("href", 'https://www.doi2bib.org/bib/' + doi);
 
           } else {
             var a = $('<a>No DOI Found</a>');
