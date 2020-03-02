@@ -12,9 +12,9 @@
       "profile": "http://dramsch.net",
       "contributions": [
         "code"
-        ]
-        },
-  {
+      ]
+    },
+    {
       "login": "sgrieve",
       "name": "Stuart Grieve",
       "avatar_url": "https://avatars1.githubusercontent.com/u/10617231?v=4",
@@ -23,7 +23,15 @@
         "code",
         "maintenance",
         "review"
-
+      ]
+    },
+    {
+      "login": "rayset",
+      "name": "rayset",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9410263?v=4",
+      "profile": "https://github.com/rayset",
+      "contributions": [
+        "review"
       ]
     }
   ],
@@ -31,5 +39,6 @@
   "projectName": "ScholarDOI",
   "projectOwner": "sgrieve",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
