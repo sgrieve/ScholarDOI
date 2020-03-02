@@ -1,4 +1,5 @@
 const ScholarDOI = require('./mainLogic.js');
+const $ = require('../src/third-party/jquery-3.4.0.min.js');
 
 function simpleTitle(){
   return 'A simple title';
@@ -23,6 +24,39 @@ function matchingShortTitle(){
 function loadCrossrefJSON(){
   var json = require('./fixtures/crossref.json');
   return json;
+}
+
+function loadScholarPage(){
+
+  // var page = require('./fixtures/scholar.html');
+
+  //
+  // var page = $( '.gs_ri' ).load('./fixtures/scholar.html');
+  //
+  // // console.log(page.children());
+  //
+  //
+  // page.each(function( index ) {
+  //
+  //   var paper = $( this );
+  //
+  // });
+  //
+  // console.log(paper);
+
+  // var my_var = '';
+
+
+  $.ajax({
+      // url: 'https://swdg.io/GEG5223/week_9/practical_8/practical_8.html',
+      url: '/Users/stuart/ScholarDOI/test/fixtures/scholar.html',
+      success: function (result) {
+          console.log(result);
+      },
+      async: false
+  });
+
+  return '';
 }
 
 test.each([
@@ -77,5 +111,11 @@ test('get cleaned title from crossref query result', () => {
 
   var doi = ScholarDOI.getTitleCrossref(loadCrossrefJSON());
   expect(doi).toBe('how long is a hillslope ');
+
+});
+
+test('do a thing', () => {
+
+  var blah = loadScholarPage();
 
 });

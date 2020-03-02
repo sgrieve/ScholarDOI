@@ -15,3 +15,6 @@ cat temp01 | sed -n -e 's/^function //p' | awk -F '\\(' '{print $1","}' >> test/
 echo "}" >> test/mainLogic.js
 
 rm temp01
+
+# Finally, download a search result from Google Scholar for testing with
+curl -sA "Chrome" -L 'https://scholar.google.co.uk/scholar?q=how+long+is+a+hillslope' -o test/fixtures/scholar.html
